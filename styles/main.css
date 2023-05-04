@@ -1,0 +1,30 @@
+.main {
+  background: #1c1c1c;
+  padding: 25px 0 25px 0;
+}
+
+.main__blocks > h2 {
+  font-size: 32px;
+  line-height: 42px;
+  color: #ffffff;
+}
+
+.main__blocks > p {
+  margin-top: 56px;
+  font-size: 22px;
+  line-height: 22px;
+  color: #ffffff;
+  width: 740px;
+}
+
+@media screen and (max-width: 750px) {
+  .main__blocks > p {
+    margin-top: 26px;
+    font-size: 18px;
+    width: 100%;
+  }
+}
+
+.main__card {
+  color: #ffffff;
+}
