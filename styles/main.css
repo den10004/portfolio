@@ -3,6 +3,10 @@
   padding: 25px 0 25px 0;
 }
 
+.main__blocks {
+  margin-top: 160px;
+}
+
 .main__blocks > h2 {
   font-size: 32px;
   line-height: 42px;
@@ -25,6 +29,41 @@
   }
 }
 
+.main__cards {
+  display: grid;
+  grid-template-columns: repeat(3, 405px);
+  grid-template-rows: 305px;
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+  max-width: 1275px;
+  margin: 56px auto 0 0;
+}
+
 .main__card {
   color: #ffffff;
+  width: 405px;
+  height: 305px;
+  border: 1px solid red;
+  box-sizing: border-box;
+}
+
+.main__card > img {
+  width: 405px;
+}
+
+.main__card > a {
+  padding-left: 20px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.skills__icons {
+  display: flex;
+  margin-top: 20px;
+}
+
+.skills__icons > img {
+  width: 88px;
+  height: 88px;
+  margin-right: 20px;
 }
