@@ -19,60 +19,90 @@
         </h3>
 
         <ul class="header__about JetBrains">
-          <li>#<span>Проекты</span></li>
-          <li>#<span>Обо мне</span></li>
-          <li>#<span>Навыки</span></li>
-          <li>#<span>Контакты</span></li>
+          <li>#<a href="#block1">Проекты</a></li>
+          <li>#<a href="#block2">Обо мне</a></li>
+          <li>#<a href="#block3">Навыки</a></li>
+          <li>#<a href="#block4">Контакты</a></li>
         </ul>
       </div>
     </header>
 
     <section class="main">
       <div class="wrapper main__blocks JetBrains">
-        <h2>Проекты</h2>
+        <h2 id="block1">Проекты</h2>
         <div class="main__cards">
           <div class="main__card">
-            <img />
-            <a href="/">Название проекта</a>
+            <div class="card__about">
+              <a href="https://diplome-vert.vercel.app/" target="_blank">
+                <img src="./images/news.jpg" alt="news" />
+                <div class="card__span">
+                  <p>NewsAnalyzer. Поиск новостей по ключевому слову</p>
+                </div>
+              </a>
+            </div>
           </div>
 
           <div class="main__card">
-            <img />
-            <a href="/">Название проекта</a>
+            <div class="card__about">
+              <a href="https://den10004.github.io/Superlux/" target="_blank">
+                <img src="./images/superlux.jpg" alt="superlux" />
+                <div class="card__span"><p>Superlux. Вёрстка макета</p></div>
+              </a>
+            </div>
           </div>
 
           <div class="main__card">
-            <img />
-            <a href="/">Название проекта</a>
+            <div class="card__about">
+              <a
+                href="https://den10004.github.io/Betting-time/"
+                target="_blank"
+              >
+                <img src="./images/bettingTime.jpg" alt="bettingTime" />
+                <div class="card__span">
+                  <p>Betting Time. Вёрстка макета</p>
+                </div>
+              </a>
+            </div>
           </div>
 
           <div class="main__card">
-            <img />
-            <a href="/">Название проекта</a>
+            <div class="card__about">
+              <a href="https://den10004.github.io/Concept/" target="_blank">
+                <img src="./images/just.jpg" alt="just" />
+                <div class="card__span">
+                  <p>just. Вёрстка макета</p>
+                </div>
+              </a>
+            </div>
           </div>
 
           <div class="main__card">
-            <img />
-            <a href="/">Название проекта</a>
+            <div class="card__about">
+              <a
+                href="https://blog-frontend-ten-ashen.vercel.app/"
+                target="_blank"
+              >
+                <img src="./images/blog.jpg" alt="blog" />
+                <div class="card__span">
+                  <p>Личный блог</p>
+                </div></a
+              >
+            </div>
           </div>
         </div>
       </div>
 
       <div class="wrapper JetBrains">
-        <div class="main__blocks">
+        <div class="main__blocks" id="block2">
           <h2>Обо мне</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-            velit turpis, finibus eu condimentum ut, posuere at ipsum. Maecenas
-            vel consequat mauris. Quisque sodales ipsum aliquet aliquam
-            placerat. Proin varius condimentum sapien. Mauris quis elit nibh.
-            Morbi ut facilisis nisl. Duis et leo ut odio rhoncus porta a a dui.
-            Nullam arcu nibh, bibendum in enim sed, ullamcorper feugiat nunc.
+            Фронтенд-разработчик. Работал на различных проектах по вёрстке
+            макетов и разработки React-приложений
           </p>
         </div>
       </div>
       <div class="wrapper main__blocks JetBrains">
-        <div class="main__blocks">
+        <div class="main__blocks" id="block3">
           <h2>Навыки</h2>
           <div class="skills__icons">
             <img src="./images/html.png" alt="html" />
@@ -82,17 +112,50 @@
             <img src="./images/js.png" alt="js" />
             <img src="./images/webpack.png" alt="webpack" />
             <img src="./images/react.png" alt="reactjs" />
+            <img src="./images/redux.png" alt="redux" />
           </div>
         </div>
       </div>
 
       <div class="wrapper main__blocks JetBrains">
-        <div class="main__blocks">
+        <div class="main__blocks" id="block4">
           <h2>Контакты</h2>
+          <div class="main__contacts JetBrains">
+            <div class="contacts__block">
+              <h4>Написать мне:</h4>
+              <div class="main__contact">
+                <img src="./images/mail.png" alt="mail" />
+                <a href="mailto:denis-sergeev-85@inbox.ru"
+                  >denis-sergeev-85@inbox.ru</a
+                >
+              </div>
+              <div class="main__contact">
+                <img src="./images/tg.png" alt="telegram" />
+                <a href="https://t.me/den10004" target="_blank">telegram</a>
+              </div>
+            </div>
+            <div class="contacts__block">
+              <h4>Медиа:</h4>
+              <div class="main__contact">
+                <img src="./images/Github.png" alt="Github" />
+                <a href="https://github.com/den10004" target="_blank">Github</a>
+              </div>
+              <div class="main__contact">
+                <img src="./images/linkedin.png" alt="linkedin" />
+                <a
+                  href="https://www.linkedin.com/in/денис-сергеев-073519215/"
+                  target="_blank"
+                  >linkedin</a
+                >
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
-    <footer></footer>
+    <footer>
+      <span class="JetBrains">© 2023 Денис Сергеев</span>
+    </footer>
   </body>
 </html>

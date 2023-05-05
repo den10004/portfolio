@@ -1,5 +1,6 @@
 @import "./header.css";
 @import "./main.css";
+@import "./footer.css";
 @import "./normalize.css";
 @import "../vendor/fonts.css";
 
@@ -30,4 +31,12 @@ body {
   .wrapper {
     width: 95%;
   }
+}
+
+a {
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
 }
